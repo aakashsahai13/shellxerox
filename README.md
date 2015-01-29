@@ -19,7 +19,7 @@ Here shell.php potrays usage of CreateIssueAPI. CreateIssueAPI requires username
 
 
 ## ``CreateIssueAPI->raiseIssue()`` : 
-This method expects an array with `issue title`,`user or owner`,`repo name`,`issue description<optional>` for rasing an issue in respective REPO SERVICE.
+This method expects an array with `title`,`user`,`repo`,`issueDescription<optional>` as keys for rasing an issue in respective REPO SERVICE.
 
 APIWrapper decides which API to use from the URL passed. Ordering of params is very much important. User can extend CreateIssueAPI, or add new functions to it and calling them straight forwardly, in very similar manner shown above.
 
